@@ -1,0 +1,22 @@
+#contactwrap {
+    background-color: #e8e8e8;
+    display: block;
+}
+form label{
+    color: #333a56;
+}
+
+form input, form textarea {
+    border: 1px solid #333a56;
+}
+
+form input, form textarea {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+form input:focus, form textarea:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}

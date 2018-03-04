@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 84.666667 84.666667"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.0 r15299"
+   sodipodi:docname="logo_agronom.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="111.41022"
+     inkscape:cy="147.19387"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="true"
+     units="px"
+     width="200px"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4491" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-212.33333)"
+     style="display:none">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.16499996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 34.406168,238.79167 6.873999,11.90625 1.063501,1.84226 1.0635,-1.84226 6.874,-11.90625 h -7.9375 z"
+       id="path4608"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.16499996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 45.248917,257.57192 -2.905249,-5.03174 -2.90525,5.03174 2.90525,5.03225 z"
+       id="path4602"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path4612"
+       d="m 34.395833,233.5 6.873999,11.90625 1.063501,1.84227 1.063501,-1.84227 L 50.270833,233.5 h -7.9375 z"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.16499996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path4614"
+       d="m 42.333333,257.3125 -2.905249,-5.03173 -2.90525,5.03173 2.90525,5.03225 z"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.16499996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.16499996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 48.154167,257.3125 -2.905249,-5.03173 -2.90525,5.03173 2.90525,5.03225 z"
+       id="path4616" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <path
+       style="fill:#99af2a;fill-opacity:1;stroke:none;stroke-width:6.47398043;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 160,57.078125 70.867188,108.53906 70.000001,180 0,210 249.13281,124.55469 v -16.01563 z"
+       transform="scale(0.26458333)"
+       id="path4687" />
+    <path
+       style="fill:#65535a;fill-opacity:1;stroke:none;stroke-width:6.47398043;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 320,110 70.867188,195.44531 v 16.01563 L 160,262.92188 249.13281,211.46094 250,140 Z"
+       transform="scale(0.26458333)"
+       id="path4680" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4690"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion4692"><rect
+           id="rect4694"
+           width="60"
+           height="60"
+           x="130"
+           y="100" /></flowRegion><flowPara
+         id="flowPara4696" /></flowRoot>  </g>
+</svg>
