@@ -92,7 +92,7 @@
 <script src="/assets/js/validator.js"></script>
 <script>
     var map, marker = null, latLng,
-        position = JSON.parse('{!! $settings->lat_lng or "{lat: 42.697, lng: 23.322}" !!}');
+        position = JSON.parse('{!! $settings->lat_lng or "{\"lat\": 42.697, \"lng\": 23.322}" !!}');
 
     console.log(position);
 
@@ -140,13 +140,13 @@
             ['regexp:alphaCyrilic', 'Позволени са само букви']
         ],
         residense: [
-            ['regexp:alphaCyrilic', 'Позволени са само букви']
+            //['regexp:alphaCyrilic', 'Позволени са само букви']
         ],
         number: [
             ['regexp:alphaDashCyrilic', 'Позволени са само букви, цифри и тирета']
         ],
         info: [
-            ['regexp:alphaDashCyrilic', 'Позволени са само букви, цифри и тирета']
+           // ['regexp:alphaDashCyrilic', 'Позволени са само букви, цифри и тирета']
         ]
 
     }, {

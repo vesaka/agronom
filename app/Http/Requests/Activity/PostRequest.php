@@ -21,7 +21,7 @@ class PostRequest extends FormRequest {
     public function rules() {
         return [
             'image' => 'image|mimes:jpeg,png,jpg|max:200000',
-            'title' => 'required|regex:/^[a-zA-Zа-яА-Я0-9,.!? ]*$/',
+            //'title' => 'required|regex:/^[a-zA-Zа-яА-Я0-9,.!?\s]*$/i',
             'description' => 'required'
         ];
     }

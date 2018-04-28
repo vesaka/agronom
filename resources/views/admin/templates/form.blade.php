@@ -63,6 +63,7 @@
 <script src="/assets/libs/cropper/cropper.min.js"></script>
 <script src="/assets/js/cropper.js"></script>
 <script src="/assets/js/admin.js"></script>
+<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
 <script>
 document.querySelector('[role=form]').validator({
     image: [
@@ -142,6 +143,11 @@ document.querySelector('[role=form]').validator({
         crop: function (e) {
             Cropper.refresh(e);
         }
+    });
+    
+    tinymce.init({ 
+        selector:'textarea',
+        
     });
 })();
 

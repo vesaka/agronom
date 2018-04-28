@@ -3,22 +3,23 @@
 <section id="main-slider" class="no-margin">
     <div class="carousel slide">
         <div class="carousel-inner">
-            <div class="item active" style="background-image: url(assets/img/trucks.jpg)">
+            <div class="item active" style="background-image: url(assets/img/front-truck.jpg)">
                 <div class="container">
                     <div class="row slide-margin">
+                        <div class="col-sm-6"></div>
                         <div class="col-sm-6">
                             <div class="carousel-content">
-                                <h2 class="animation animated-item-1">Добре дошли <span>Company</span></h2>
-                                <p class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</p>
+                                <h2 class="animation animated-item-1"><span>Боби66 ООД</span></h2>
+                                <p class="animation animated-item-2">Предлага услуги със самосвали, микробуси, багери</p>
                                 <a class="btn-slide animation animated-item-3" href="{{ route('about') }}">Научете повече</a>
                             </div>
                         </div>
 
-                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+<!--                        <div class="col-sm-6 hidden-xs animation animated-item-4">
                             <div class="slider-img">
                                 <img src="images/slider/img3.png" class="img-responsive">
                             </div>
-                        </div>
+                        </div>-->
 
                     </div>
                 </div>
@@ -39,7 +40,7 @@
                 <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     {{ HTML::image('assets/img/service/' . $service->filename, $service->name, ['class' => 'presentation-image']) }}
                     <h2><a href="{{ route('guest.view', ['услуги', $service->slug]) }}">{{ $service->name }}</a></h2>
-                    <p>{{ substr($service->description, 0, 100) . '...' }}</p>
+                    <p>{!! $service->description !!}</p> 
                 </div>
             </div>
             @endforeach
@@ -57,19 +58,14 @@
             <div class="container">
                 <h2 class="text-center">За нас</h2>
                 <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-        
                 <img src="{{ asset('/assets/img/tractor-on-farm.jpg') }}" class="img-responsive" />
             </div>
 
             <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                <h2>Template built with Twitter Bootstrap</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque libero,
-                    pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-                    libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-                    libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque </p>
+                <p>Разполагаме със собствени превозни средства за транспорт.</p>
+                <p>Ние разполагаме с различни по обем и тонаж камиони, които са необходими за всеки тип строеж.</p>
+                <p>Ние се стреми да предложи на клиентите си лесно, бързо и качествено обслужване във всеки един от отраслите си.</p>
+                <p>Фирмата притежава гама от строителна механизация, необходима за всеки строеж.</p>
             </div>
         </div>
     </div>
@@ -93,17 +89,13 @@
     <section id="partner">
         <div class="container">
             <div class="center wow fadeInDown">
-                <h2>Our Partners</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <h2>Нашите партньори</h2>
             </div>
 
-            <div class="partners">
-                <ul>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/partner1.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/partner2.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/partner3.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/partner4.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/partner5.png"></a></li>
+            <div class="col-lg-12 col-md-12 col-sm-12 partners" style="margin: 0 auto">
+                <ul class="col-lg-12 col-md-12 col-sm-12" style="width:auto">
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="{{ asset('images/partners/avtomagistrali.png') }}"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/gp-logo1.jpg"></a></li>
                 </ul>
             </div>
         </div>

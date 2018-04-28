@@ -35,8 +35,11 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <div class="navbar-brand">
-                                <a href="{{ route('index') }}"><h1><span>Ком</span>пания</h1></a>
+                            <div class="navbar-brand" style="position: relative">
+                                <a href="{{ route('index') }}">
+                                    <img class="company-logo" src="{{ asset('/assets/img/logo_agronom2.svg') }}" alt="Лого"/>
+                                    <h1>Боби66 ООД</h1>
+                                </a>
                             </div>
                         </div>
 
@@ -74,7 +77,7 @@
                 <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-lg-4 col-xl-3 border-bottom">
-                        <img class="company-logo" src="{{ asset('/assets/img/logo_agronom1.svg') }}" alt="Лого"/>
+                        <img class="company-logo" src="{{ asset('/assets/img/logo_agronom2.svg') }}" alt="Лого"/>
                         <div class="hline-w"></div>
                         <h6 class="text-uppercase font-weight-bold"><strong>Информация</strong></h6>
                         

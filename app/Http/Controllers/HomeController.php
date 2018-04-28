@@ -31,8 +31,7 @@ class HomeController extends Controller
     {
         $this->service = $service;
         $this->activity = $activity;
-        $this->project = $project;
-        $this->middleware('auth');
+        $this->project = $project; 
     }
 
     /**

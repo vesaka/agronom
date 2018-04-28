@@ -14,7 +14,7 @@ Route::post('/message/post', ['as' => 'post.message', 'uses' => 'HomeController@
 
 Route::get('/',  ['as' => 'index', 'uses' => 'HomeController@index']);
 Route::get('/start', ['as' => 'start', 'uses' => 'HomeController@index']);
-
+Route::get('/home', ['as' => 'start', 'uses' => 'HomeController@index']);
 Route::get('/за-нас', ['as' => 'about', 'uses' => function () {
     return view('company.about-us');
 }]);
@@ -30,7 +30,7 @@ Route::get('/контакти', ['as' => 'contacts', 'uses' => function() {
 Route::post('/post', ['as' => 'post', 'uses' => 'HomeController@post']);
 Route::get('/{type}/view/{slug}', ['as' => 'guest.view', 'uses' => 'HomeController@view']);
 
-Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth', 'namespace' => 'Admin'], function() {
+Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'is.admin'], 'namespace' => 'Admin'], function() {
     Route::get('/home', 'HomeController@index')->name('home');
     Route::get('/settings', 'SettingsController@index')->name('home');
     Route::get('/messages', ['as' => 'messages', 'uses' => 'MessageController@index']);

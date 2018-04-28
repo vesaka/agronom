@@ -28,7 +28,7 @@
                     <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         {{ HTML::image('assets/img/service/' . $project->filename, $project->name, ['class' => 'presentation-image']) }}
                         <h4>{{ $project->name }}</h4>
-                        <p>{{ substr($project->description, 0, 200) . '...' }}</p>
+                        <p style="height: 100px">{{ $project->description }}</p>
                         <p><br/><a href="{{ route('guest.view', ['услуги', $project->slug]) }}" class="btn btn-primary">Повече информация</a></p>
                     </div>
                 </div>

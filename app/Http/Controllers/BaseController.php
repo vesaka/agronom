@@ -77,18 +77,17 @@ abstract class BaseController extends Controller {
         if ($request->image instanceof UploadedFile) {
             $imageName = $entity->name . '_' . time() . '.' . $request->image->getClientOriginalExtension();
             $request->image->move(base_path("/resources/assets/img/$this->entity/original/"), $imageName);
-            $original = "/resources/assets/img/$this->entity/original/$imageName";
+            $original = base_path("/resources/assets/img/$this->entity/original/$imageName");
         } else if (
                 isset($request->crop_data) && $request->crop_data !== $entity->crop_data && $entity->filename !== self::DEFAULT_FILENAME
         ) {
             $update = false;
         }
 
-        dd($request->image);
         if ($update) {
             Image::make($original)
                     ->crop($crop_data->width, $crop_data->height, $crop_data->x, $crop_data->y)
-                    ->save("resources/assets/img/$this->entity/$imageName");
+                    ->save(base_path("resources/assets/img/$this->entity/$imageName"));
 
             $storage->delete([$filename, $_original]);
         }
